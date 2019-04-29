@@ -176,6 +176,10 @@ footer {
     box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.06);;
 }
 
+.btn--shadow-2 {
+    box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.14901960784313725);
+}
+
 
 .btn--small {
     width: 130px;
@@ -198,12 +202,25 @@ footer {
     color: white;
 }
 
+.btn--pink:hover {
+    background-color: #e03da5;
+}
+
 .btn--white {
     background-color: #fff;
     color: #000;
 }
 
 @media (min-width: 769px) {
+        
+    .header {
+        background-image: url('./img/bg-hero-desktop.svg');
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: #edfbfe;
+
+    }
 
     .header__content {
         display: flex;
